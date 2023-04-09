@@ -1,0 +1,72 @@
+db.user.find({'_id':143}).pretty()
+
+db.user.save(
+{
+        "_id" : 143,
+        "mail" : "banned143@czoj.com.cn",
+        "mailLower" : "banned143@czoj.com.cn",
+        "uname" : "封禁用户143",
+        "unameLower" : "封禁用户143",
+        "hash" : "0213db5ebdd60c556d6e0550193d5411faba2090defdfe497b8611311499f149",
+        "salt" : "gr2TtCHO42Plvx8uTn2qnMaKO2nkAyT4",
+        "hashType" : "hydro",
+        "regat" : ISODate("2023-03-05T12:25:08.596Z"),
+        "ip" : [
+                "127.0.0.1"
+        ],
+        "loginat" : ISODate("2023-03-05T12:25:08.596Z"),
+        "loginip" : "127.0.0.1",
+        "priv" : 0,
+        "avatar" : "url:/banned.png",
+        "codeFontFamily" : "Source Code Pro",
+        "codeLang" : "cc.cc14o2",
+        "codeTemplate" : "",
+        "fontFamily" : "Open Sans",
+        "formatCode" : true,
+        "monacoTheme" : "vs-light",
+        "preferredEditorType" : "sv",
+        "showInvisibleChar" : false,
+        "skipAnimate" : false,
+        "theme" : "light",
+        "timeZone" : "Asia/Shanghai",
+        "viewLang" : "zh",
+        "backgroundImage" : "/banned_background.png",
+        "bio" : "",
+        "gender" : "2",
+        "qq" : "",
+        "school" : "",
+        "studentId" : ""
+}
+)
+
+db.user.save(
+{
+        "_id" : 54,
+        "mail" : "jyqwq@qq.com",
+        "mailLower" : "jyqwq@qq.com",
+        "uname" : "_JYqwq_",
+        "unameLower" : "_jyqwq_",
+        "hash" : "9c849255fe65009be1fb5a4cd15223224e44937d63f11d6deffce5e02412f03f",
+        "salt" : "2CCaUGX8uFjlTnY7lyIuyV0shCPnBfPu",
+        "hashType" : "hydro",
+        "regat" : ISODate("2023-04-09T01:33:57.015Z"),
+        "ip" : [
+                "180.116.82.160"
+        ],
+        "loginat" : ISODate("2023-04-09T01:33:57.015Z"),
+        "loginip" : "180.116.82.160",
+        "priv" : 65540,
+        "avatar" : "qq:839730577",
+        "codeFontFamily" : "Source Code Pro",
+        "codeLang" : "cc.cc14",
+        "codeTemplate" : "",
+        "fontFamily" : "Open Sans",
+        "formatCode" : false,
+        "monacoTheme" : "vs-light",
+        "preferredEditorType" : "sv",
+        "showInvisibleChar" : false,
+        "skipAnimate" : false,
+        "theme" : "dark",
+        "timeZone" : "Asia/Shanghai",
+        "viewLang" : "zh"
+})

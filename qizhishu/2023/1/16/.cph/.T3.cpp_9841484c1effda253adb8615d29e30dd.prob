@@ -1,0 +1,1 @@
+{"name":"Local: T3","url":"c:\\Users\\admin\\Documents\\GitHub\\code\\qizhishu\\2023\\1\\16\\T3.cpp","tests":[{"id":1673844761394,"input":"4\n5 3\nBBWBW\n5 5\nBBWBW\n5 1\nBBWBW\n1 1\nW","output":"1\n2\n0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Documents\\GitHub\\code\\qizhishu\\2023\\1\\16\\T3.cpp","group":"local","local":true}
